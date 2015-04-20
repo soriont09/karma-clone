@@ -433,20 +433,21 @@ div{
   border: 1px solid Chocolate;
   border-radius: 3px;
 }
-header{
+nav{
   margin-top: 10px;
 }
-header img{
+nav img{
   max-height: 3em;
   max-width: 3em;
   float: left;
   margin-left: 10px;
 }
-header ul{
+nav ul{
   float: right;
+
   
 }
-header ul li{
+nav ul li{
   display: inline-block;
   align-items: center;
 }
