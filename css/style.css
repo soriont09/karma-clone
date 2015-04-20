@@ -425,13 +425,34 @@ td,
 th {
   padding: 0;
 }
-
+# for build purpose only, remove
 body{
   background-color: LightGray;
 }
 div{
   border: 1px solid Chocolate;
+  border-radius: 3px;
 }
+header{
+  margin-top: 10px;
+}
+header img{
+  max-height: 3em;
+  max-width: 3em;
+  float: left;
+  margin-left: 10px;
+}
+header ul{
+  float: right;
+  
+}
+header ul li{
+  display: inline-block;
+  align-items: center;
+}
+
+
+
 
 
 
