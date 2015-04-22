@@ -10,6 +10,9 @@
 .logo{
 	border: 1px dotted blue;
 }
+.links{
+	border: 1px dashed purple;
+}
 
 /*nav bar*/
 
@@ -21,7 +24,10 @@
 	height: 70px;
 	margin: 0 auto;
 }
-.logo{
+.top-navigation .logo{
 	margin-left: 14px;
 	height: 70px;
+}
+.top-navigation .links{
+	float: right;
 }
