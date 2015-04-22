@@ -1,7 +1,7 @@
 /*
 	tracking boxes
 */
-.top-navigation{
+/*.top-navigation{
 	border: 1px solid green;
 }
 .content{
@@ -13,9 +13,25 @@
 .links{
 	border: 1px dashed purple;
 }
+li{
+	border: 1px solid purple;
+}*/
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 /*nav bar*/
 
+body{
+	font-family: 'Roboto', sans-sarif;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	color: #838994;
+	letter-spacing: 0.03em;
+}
 .top-navigation{
 	background-color: #fff;
 }
@@ -27,9 +43,23 @@
 	box-sizing: border-box;
 }
 .top-navigation .logo{
-	#margin-left: 14px;
 	height: 70px;
 }
 .top-navigation .links{
 	float: right;
+	margin-top: 25px;
+}
+.top-navigation .links li{
+	font-family: 'Roboto';
+	display: inline-block;
+	margin-left: 10px;
+}
+.top-navigation .links > .active{
+	color: #4c5058;
+	font-weight: 600;
+}
+.top-navigation .links li:hover{
+	cursor: pointer;
+	transition: color 0.25s ease;
+	color: #3D96D1;
 }
