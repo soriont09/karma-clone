@@ -22,10 +22,11 @@
 .top-navigation > .content{
 	width: 675px;
 	height: 70px;
+	padding: 0px 15px;
 	margin: 0 auto;
 }
 .top-navigation .logo{
-	margin-left: 14px;
+	#margin-left: 14px;
 	height: 70px;
 }
 .top-navigation .links{
