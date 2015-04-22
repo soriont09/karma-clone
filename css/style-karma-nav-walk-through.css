@@ -1,0 +1,27 @@
+/*
+	tracking boxes
+*/
+.top-navigation{
+	border: 1px solid green;
+}
+.content{
+	border: 2px dotted blue;
+}
+.logo{
+	border: 1px dotted blue;
+}
+
+/*nav bar*/
+
+.top-navigation{
+	background-color: #fff;
+}
+.top-navigation > .content{
+	width: 675px;
+	height: 70px;
+	margin: 0 auto;
+}
+.logo{
+	margin-left: 14px;
+	height: 70px;
+}
